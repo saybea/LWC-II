@@ -1,0 +1,19 @@
+<template>
+    <div class="app">
+        <c-oppsdaconta id="1" nome="Oportunidade 1" valor="10000" fase="Negociação"></c-oppsdaconta>
+        <c-oppsdaconta id="2" nome="Oportunidade 2" valor="20000" fase="Fechado"></c-oppsdaconta>
+        <c-oppsdaconta id="3" nome="Oportunidade 3" valor="30000" fase="Perdido"></c-oppsdaconta>
+        <c-oppsdaconta id="4" nome="Oportunidade 4" valor="40000" fase="Qualificação"></c-oppsdaconta>
+        <c-oppsdaconta id="5" nome="Oportunidade 5" valor="50000" fase="Proposta"></c-oppsdaconta>
+    </div>
+</template>
+
+<style>
+.app {
+    padding: 20px;
+}
+</style>
+
+<script>
+import { LightningElement } from 'lwc';
+import OppsDa
