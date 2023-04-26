@@ -1,0 +1,11 @@
+import { LightningElement } from 'lwc';
+
+export default class App extends LightningElement {
+    primeironome = 'João';
+    sobrenome = 'da Silva';
+    idade = 30;
+    email = 'joao.silva@email.com';
+    classificacao = 'Cliente Ouro';
+    empresa = 'Acme Inc.';
+    receitaanual = 1000000;
+}
