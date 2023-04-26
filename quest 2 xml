@@ -1,0 +1,37 @@
+
+Nesse código, importamos a classe `OppsDaConta` e definimos a classe `App`, que não possui nenhum código além da declaração dos componentes filho `c-oppsdaconta`, passando valores para as propriedades `id`, `nome`, `valor` e `fase`.
+
+5. Por fim, precisamos registrar os componentes no arquivo `oppsdaconta.js-meta.xml` e no arquivo `app.js-meta.xml`. Para isso, adicionamos o seguinte código:
+
+No arquivo `oppsdaconta.js-meta.xml`:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="oppsdaconta">
+    <apiVersion>54.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+</LightningComponentBundle>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+app.js-meta.xml
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="app">
+    <apiVersion>54.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage">
+            <property name="opps" type="String" datasource="opp1,opp2,opp3,opp4,opp5" label="Oportunidades da Conta" default="opp1,opp2,opp3,opp4,opp5"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
