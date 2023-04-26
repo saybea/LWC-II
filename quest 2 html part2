@@ -16,7 +16,7 @@
 
 <script>
 import { LightningElement } from 'lwc';
-import OppsDa
+import OppsDaConta
 <script>
 import { LightningElement } from 'lwc';
 import OppsDaConta from 'c/oppsdaconta';
