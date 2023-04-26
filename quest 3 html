@@ -1,0 +1,21 @@
+<template>
+    <div class="lead-info">
+        <h1>Lead Information</h1>
+        <div class="field">
+            <label>First Name:</label>
+            <span>{firstName}</span>
+        </div>
+        <div class="field">
+            <label>Last Name:</label>
+            <span>{lastName}</span>
+        </div>
+        <div class="field">
+            <label>Email:</label>
+            <span>{email}</span>
+        </div>
+        <div class="field">
+            <label>Status:</label>
+            <span>{status}</span>
+        </div>
+    </div>
+</template>
