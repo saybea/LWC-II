@@ -1,0 +1,8 @@
+<template>
+	<h1>Lead {primeironome} {sobrenome}</h1>
+	<p>Idade: {idade}</p>
+	<p>E-mail: {email}</p>
+	<p>Classificação: {classificacao}</p>
+	<p>Empresa: {empresa}</p>
+	<p>Receita Anual: {receitaanual}</p>
+</template>
