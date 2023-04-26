@@ -17,3 +17,11 @@
 <script>
 import { LightningElement } from 'lwc';
 import OppsDa
+<script>
+import { LightningElement } from 'lwc';
+import OppsDaConta from 'c/oppsdaconta';
+
+export default class App extends LightningElement {
+    // Nenhum código aqui, apenas os componentes filho
+}
+</script>
