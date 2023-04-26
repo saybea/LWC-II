@@ -1,0 +1,8 @@
+import { LightningElement, api } from 'lwc';
+
+export default class LeadInfo extends LightningElement {
+    @api firstName;
+    @api lastName;
+    @api email;
+    @api status;
+}
