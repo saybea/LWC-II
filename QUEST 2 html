@@ -1,0 +1,8 @@
+<template>
+    <div class="opps-da-conta">
+        <h1>{nome}</h1>
+        <p>ID: {id}</p>
+        <p>Valor: R$ {valor},00</p>
+        <p>Fase: {fase}</p>
+    </div>
+</template>
